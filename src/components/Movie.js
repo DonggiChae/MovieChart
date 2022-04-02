@@ -5,7 +5,6 @@ function Movie({ id, coverImg, title, summary, genres }) {
   return (
     <div>
       <img src={coverImg} alt={title} />
-      <h2>{title}</h2>
       <h2>
         <Link to={`/movie/${id}`}>{title}</Link>
       </h2>
@@ -26,5 +25,4 @@ Movie.propTypes = {
   summary: PropTypes.string.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
-
 export default Movie;
