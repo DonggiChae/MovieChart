@@ -1,5 +1,6 @@
 .bg {
   position: fixed;
+  z-index: -1;
   top: 0;
   left: 0;
 
@@ -50,10 +51,4 @@
   padding: 0 0 0 20px;
   color: white;
   font-size: 18px;
-}
-
-.textbox p {
-  color: whitesmoke;
-  font-weight: 300;
-  font-size: 14px;
 }
