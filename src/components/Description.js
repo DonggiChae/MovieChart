@@ -1,9 +1,9 @@
 import styles from "./MovieDescription.module.css";
 
-function MovieDescription({background_image_original, medium_cover_image, url, title_long, rating, runtime, genres, download_count}) {
+function MovieDescription({ background_image_original, medium_cover_image, url, title_long, rating, runtime, genres, download_count }) {
     return (
         <div>
-            <img className={styles.bg} src={background_image_original} />           
+            <img className={styles.bg} src={background_image_original} />
             <div className={styles.show}>
                 <img className={styles.img} src={medium_cover_image} />
                 <div className={styles.textbox}>
